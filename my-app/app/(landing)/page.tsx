@@ -1,7 +1,10 @@
+import { Hero } from "./_section/hero";
+
 const LandingPage = () => {
     return(
-        <div className="flex ml-auto mr-auto  w-[360px] bg-red-400">
-            Bienvenue dans mon univers
+        <div className="flex items-center justify-center w-full">
+            
+            <Hero/>
         </div>
     )
 }
